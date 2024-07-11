@@ -4,11 +4,6 @@
   padding: 0;
 }
 
-.logo-image {
-  max-width: 100px; /* Adjust this value to your preferred size */
-  height: auto; /* This maintains the aspect ratio */
-}
-
 :root {
   --primary-color: #4891ff;
   --light-color: #f4f4f6;
@@ -46,6 +41,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo-image {
+  max-width: 50px; /* Adjust this value to your preferred size */
+  height: auto; /* This maintains the aspect ratio */
 }
 
 .navbar .main-menu ul {
